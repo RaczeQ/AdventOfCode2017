@@ -46,7 +46,7 @@ My code
 
     def main():
         result_sum = sum([check_row(row) for row in INPUT.split('\n')])
-        print(result_sum) # OUTPUT: 119
+        print(result_sum)
 
     def check_row(row):
         phrases = row.split(' ')

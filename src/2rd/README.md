@@ -50,7 +50,7 @@ My code:
                 last_move = "down"
         
         distance = abs(x_pos) + abs(y_pos)
-        print(distance) # OUTPUT: 552
+        print(distance)
 
     def evaluateSteps(pos, remaining_steps, max_pos):
         if abs(pos - max_pos) > abs(remaining_steps):
@@ -127,7 +127,7 @@ My code
                 if y_pos == max_down:
                     next_move = "right"
         
-        print(grid_values[str(x_pos) + " " + str(y_pos)]) # OUTPUT: 330785
+        print(grid_values[str(x_pos) + " " + str(y_pos)])
 
     def getNeighboursSum(grid_values, x_pos, y_pos):
         result = 0
