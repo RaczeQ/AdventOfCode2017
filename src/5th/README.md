@@ -70,3 +70,4 @@ My code
         history.append(str(banks))
         cycles += 1
     print(inner_cycles)
+ 
