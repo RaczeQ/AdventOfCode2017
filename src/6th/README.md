@@ -105,7 +105,7 @@ Given that exactly one program is the wrong weight, what would its weight need t
 
 My code
 
-   import string
+    import string
 
     def main():
         rows = INPUT.split('\n')
